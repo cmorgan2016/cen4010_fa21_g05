@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<h1>
+Chelsea Morgan
+</h1>
+<h2>
+Role TBD
+</h2>
+
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+img {
+  max-width: 50%;
+  height: auto;
+}
+</style>
+
+</head>
+
+
+<body>
+<p>
+Chelsea Morgan is a FAU student in what she describes as her "super senior" year or her final year of her 2nd degree. 
+</p>
+
+<ol>
+<li> Major(s): Accounting and Computer Science </li>
+<li> Hobbies: Writing, Video Games, Crochet, Sewing, Crafting </li>
+<li> Triva: Has 2 Florida Blue Garter Snakes in a custom enclouse. </li>
+</ol>
+
+<img src="https://i.imgur.com/GouyUw0.jpg?1" alt="Snakes" align="center">
+<img src="https://i.imgur.com/ELAywP4.jpg" alt="Dogs" align="center">
+
+</body>
+
+</html>
