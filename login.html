@@ -1,0 +1,52 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Habits and Habitats</title>
+        <meta name = "viewport" content = "width-device-width, initial - scale = 1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="login-page">
+        <div class="form">
+            <form class="registration-form">
+            <input type="text" placeholder="user name"/>
+            <input type="text" placeholder="password"/>
+            <input type="text" placeholder="email id"/>
+            <button>Create</button>
+            <p class="message">Already Registered? <a href="#">Login</a></p>
+            </form>
+
+            <form class="login-form">
+                <input type ="text" placeholder="user name"/>
+                <input type ="text" placeholder="password"/>
+                <button id="mybutton" class="float-left login-button">Login</button>
+                <p class="message">Not Registered? <a href="#">Register</a></p>
+            </form>
+        </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+        <script>
+        $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity: "toggle"}, "slow")
+        });
+        </script>
+        <script type="text/javascript">
+            document.getElementById(mybutton).onclick = function(){
+                location.href ="www.google.com";
+            }
+
+        </script>
+
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

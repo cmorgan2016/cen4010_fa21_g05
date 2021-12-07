@@ -1,84 +1,145 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: url(../image/image_5.jpg)  no-repeat;
+
+body {
+    /* background-color: black; */
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('image/pic2.jpg'); 
+    height: 100vh;
     background-size: cover;
+    background-position: center;
 }
-.box{
-    width: 750px;
-    background: rgba(0,0,0,0.5);
-    padding: 40px;
-    text-align: center;
+.button{
+    width: 100px;
+}
+.carousel-item{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#carouselExampleControls .carousel slide{
     margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: 'Century Gothic',sans-serif;
+    max-width: auto;
+
 }
-.box1{
-    width: 750px;
-    background: rgba(0,0,0,0.5);
-    padding: 40px;
-    text-align: center;
+#carouselExampleControls .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+.container{
+    margin: 25;
+    width: 100px;
+}
+.container-fluid{
+    width: 100px;
+}
+.form d-flex{
+    margin: right auto;
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
     margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: 'Century Gothic',sans-serif;
 }
-.box-image{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-.box-image1{
-    width: 750px;
-    background: rgba(0,0,0,0.5);
-    padding: 40px;
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7,40,195,0.8);
+    max-width:360px;
+    margin: 0 auto 100px;
+    padding: 45px;
     text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: 'Century Gothic',sans-serif;
 }
-.box h1{
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    font-size: 24px;
 }
-.box h5{
-    font-size: 25px;
-    letter-spacing: 3px;
-    font-weight: 100;
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
 }
-.box p{
-    text-align: justify;
+.form button:hover, .form button:active{
+    background: lightgreen;
+    color: black;
 }
-.box1 p{
-    text-align: justify;
+.form .message{
+    margin: 15px 0 0 0;
+    color: aliceblue;
 }
-ul{
-    margin: 0;
-    padding: 0;
-}
-.box li{
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-    
-}
-.box li a{
-    color:white;
+
+.form .message a{
+    color: #4CAF50;
     text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-    -webkit-transition: all ease-in-out 250ms;
-    -moz-transition: all ease-in-out 250ms;
-    -ms-transition: all ease-in-out 250ms;
-    -o-transition: all ease-in-out 250ms;
 }
-.box li a:hover{
-    color: #b9b9b9;
+
+.form .registration-form{
+    display: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: mediumturquoise;
+    font-size: 14px;
+    color:black;
+}
+ul {
+    margin-left: 60px;
+}
+
+ul li {
+    display: inline-block;
+    /*float: left;*/
+    line-height: 100px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:-Arial;
+    color: black;
+    padding: 0 20px;
+
+}
+
+ul li a:hover{
+    color: red;
+
+}
+
+
+
+h1 {
+    color: lightskyblue;
+    font-size: 70px;
+    margin: 0px;
+    background-color: gray;
+    text-align: center;
+} 
+
+
+/* . denotes a class in css */
+
+/* # denotes an id tag in css */
+.row 
+{
+
 }
